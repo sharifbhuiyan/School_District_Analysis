@@ -39,25 +39,25 @@
   
   Updated :   
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/1.%20Dct_summary_with%209th%20grade.png
 </p>
   
   Previous : 
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/2.%20Dct_summary_without%209th%20grade.png
 </p>
   
 
-  <p align="justify">•	•	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07, present rate is 90.63. It can be visualized by following snapshot. <p>
+  <p align="justify">•	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07, present rate is 90.63. It can be visualized by following snapshot. <p>
   
   Updated :   
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/3.%20School_summary_with%209th%20grade.png
 </p>
   
   Previous : 
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/4.%20School_summary_without%209th%20grade.png
 </p>
    
   
@@ -66,80 +66,26 @@
  
 ```ruby
     
-    txt_file.write(winning_candidate_summary)
+    student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & (student_data_df["grade"]=="9th"),"reading_score"]=np.nan
 
 ```
   
 
-  The commmand to replace the overall passing percentage for Thomas High School in the per_school_summary_df  iss : 
+  The commmand to replace the overall passing percentage for Thomas High School in the per_school_summary_df  is : 
  
 ```ruby
     
-    txt_file.write(winning_candidate_summary)
+    per_school_summary_df.loc["Thomas High School", "% Overall Passing"] = passing_math_reading_percentage_THS
 
 ```
 
   
-  
-  
-  
-  
-  Command for Save the winning candidate's summary to the text file :
-  ```ruby
+
     
-    txt_file.write(winning_candidate_summary)
-
-```
-  
-    
- Command for print the winning candidate to terminal :
-
-  
- ```ruby
-    winning_candidate_summary = (
-        f"-------------------------\n"
-        f"Winner: {winning_candidate}\n"
-        f"Winning Vote Count: {winning_count:,}\n"
-        f"Winning Percentage: {winning_percentage:.1f}%\n"
-        f"-------------------------\n")
-    print(winning_candidate_summary)
-    
-  ```
-  
-  
- ### Election-Audit analysis outcomes were :
-
-- Total  369,711 votes were cast in this congressional election.
-
-- The number of votes and the percentage of total votes casted for each county was :
  
- <p align="center">
-   
-| 	County  | % of casting vote  | Casting vote |
-| :------------ |:---------------:| -----:|
-| Jefferson      | 10.5% | 38,855 |
-| Denver      | 82.8%        |   306,055 |
-| Arapahoe | 6.7%        |    24,801 |
-
-</p>
-   
-   
-- The county, Denver had the largest number of votes, 306,055.
-
-- The number of votes and the percentage of the total votes each candidate received :
-
-| 	Candate  | Number of received votes  | % of received vote |
-| :------------ |:---------------:| -----:|
-| Charles Casper Stockham      | 85,213 | 323.0% |
-| Diana DeGette      | 272,892        |   73.8% |
-| Raymon Anthony Doane | 11,606        |    3.1% |
-  
-- Diana DeGette won the election. The number of received votes was 272,892 and percentage of the total votes was  73.8%.
   
   
- 
-
-    
+     
     
     
     
@@ -163,19 +109,4 @@ Scores by school type
   
 <p align="justify">Suppose for city election, need to change the all county tracking code. Like : <p>
 
-- Have to remove the code for tracking the largest county and county voter turnout.
-```ruby   
-county_name = ""
-county_voting = 0
-```
-  
-  - Have to remove the code for printing the largest turnout county.
-  
-  ```ruby   
-    winning_county_summary = (
-    f"-------------------------\n"
-    f"Largest County Turnout: {c_winning_county}\n"
-    # f"Winning Vote Count: {c_winning_count:,}\n"
-    # f"Winning Percentage: {c_winning_percentage:.1f}%\n"
-    f"-------------------------\n")
-    print(winning_county_summary)
+
