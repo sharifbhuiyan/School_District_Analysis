@@ -64,7 +64,7 @@
    
   
   
- The command To select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN is : 
+ The command to select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN is : 
  
 ```ruby
     
