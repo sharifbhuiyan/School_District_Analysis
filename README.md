@@ -6,20 +6,18 @@
   ## Overview of the school district analysis: 
 <p align="justify">Reviewing the previous analysis, school board has identified something anomaly in source file, students_complete.csv. Authority noticed an evidence of academic dishonesty. Specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Now new analysis has been furnished by replacing the math and reading scores for Thomas High School with NaNs and keeping the rest of the data intact. <p>
 
-This new analysis consists of two technical analysis.
+<p align="justify">This new analysis consists of two technical analysis.<p>
 - Replace ninth-grade reading and math scores
 - Repeat the school district analysis
 
  
-
-<p align="justify">Two technical analysis were performed to complete the Election audit analysis. The coding for the Election results was conducted by Python command line with VS code editor. Results also saved to a Text File. <p>
-
-  Election audit Analysis Python.py file link -  [ Election  Audit Analysis](https://github.com/sharifbhuiyan/Election_Analysis/blob/main/PyPoll_Challenge.py)  
+  School district analysis PyCitySchools_Challenge.ipynb file link -  [ Election  Audit Analysis](https://github.com/sharifbhuiyan/Election_Analysis/blob/main/PyPoll_Challenge.py)  
 
   
 - Resources :
-  - Data source : election_results.txt
-  - Software : Python 3.10.4, Visual Studio Code editor 1.66.0
+  - Data source : schools_complete.csv, students_complete.csv
+  - Software : Pandas library, Jupyter Notebook
+
 
 
   
