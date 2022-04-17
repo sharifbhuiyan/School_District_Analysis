@@ -7,8 +7,9 @@
 <p align="justify">Reviewing the previous analysis, school board has identified something anomaly in source file, students_complete.csv. Authority noticed an evidence of academic dishonesty. Specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Now new analysis has been furnished by replacing the math and reading scores for Thomas High School with NaNs and keeping the rest of the data intact. <p>
 
 <p align="justify">This new analysis consists of two technical analysis.<p>
-- Replace ninth-grade reading and math scores
-- Repeat the school district analysis
+
+  - Replace ninth-grade reading and math scores
+  - Repeat the school district analysis
 
  
   School district analysis PyCitySchools_Challenge.ipynb file link -  [ School district analysis](https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)  
@@ -19,11 +20,6 @@
   - Software : Pandas library, Jupyter Notebook
 
 
-
-  
-  
-  
-
   
   
  ## School district analysis Results: 
@@ -31,17 +27,61 @@
 <p align="justify"> The following metrics are recreated to repeat the school district analysis : 
 
 
-•	The district summary
-•	The school summary
-•	The top 5 and bottom 5 performing schools, based on the overall passing rate
-•	The average math score for each grade level from each school
-•	The average reading score for each grade level from each school
-•	The scores by school spending per student, by school size, and by school type
+- The district summary
+- The school summary
+- The top 5 and bottom 5 performing schools, based on the overall passing rate
+- The average math score for each grade level from each school
+- The average reading score for each grade level from each school
+- The scores by school spending per student, by school size, and by school type
  <p>
   
+   <p align="justify">•	The district summary has been changed after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.2, present rate is 64.9. It can be visualized by following snapshot. <p>
+  
+  Updated :   
 <p align="center">
   <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
 </p>
+  
+  Previous : 
+<p align="center">
+  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+</p>
+  
+
+  <p align="justify">•	•	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07, present rate is 90.63. It can be visualized by following snapshot. <p>
+  
+  Updated :   
+<p align="center">
+  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+</p>
+  
+  Previous : 
+<p align="center">
+  <img width="500" src=https://github.com/sharifbhuiyan/Election_Analysis/blob/main/Resources/Anlysis_3.png
+</p>
+   
+  
+  
+ The command To select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN is : 
+ 
+```ruby
+    
+    txt_file.write(winning_candidate_summary)
+
+```
+  
+
+  The commmand to replace the overall passing percentage for Thomas High School in the per_school_summary_df  iss : 
+ 
+```ruby
+    
+    txt_file.write(winning_candidate_summary)
+
+```
+
+  
+  
+  
   
   
   Command for Save the winning candidate's summary to the text file :
