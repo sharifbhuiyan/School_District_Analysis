@@ -27,37 +27,39 @@
 <p align="justify"> The following metrics are recreated to repeat the school district analysis : 
 
 
-- The district summary
-- The school summary
-- The top 5 and bottom 5 performing schools, based on the overall passing rate
-- The average math score for each grade level from each school
-- The average reading score for each grade level from each school
-- The scores by school spending per student, by school size, and by school type
+  - The district summary
+  - The school summary
+  - The top 5 and bottom 5 performing schools, based on the overall passing rate
+  - The average math score for each grade level from each school
+  - The average reading score for each grade level from each school
+  - The scores by school spending per student, by school size, and by school type
  <p>
   
-   <p align="justify">•	The district summary has been changed after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.2, present rate is 64.9. It can be visualized by following snapshot. <p>
+<p align="justify">
+  i) The district summary has been changed after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.2, present rate is 64.9. It can be visualized by following snapshot. <p>
   
-  Updated :   
+  
+  Present :   
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/1.%20Dct_summary_with%209th%20grade.png
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/2.%20Dct_summary_without%209th%20grade.png
 </p>
   
   Previous : 
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/2.%20Dct_summary_without%209th%20grade.png
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/1.%20Dct_summary_with%209th%20grade.png
 </p>
   
 
-  <p align="justify">•	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07, present rate is 90.63. It can be visualized by following snapshot. <p>
+  <p align="justify"> ii)	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07 (approx), present rate is 90.63(approx). It can be visualized by following snapshot. <p>
   
-  Updated :   
+  Present :   
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/3.%20School_summary_with%209th%20grade.png
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/4.%20School_summary_without%209th%20grade.png
 </p>
   
   Previous : 
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/4.%20School_summary_without%209th%20grade.png
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/3.%20School_summary_with%209th%20grade.png        
 </p>
    
   
@@ -80,8 +82,20 @@
 ```
 
   
+•	Among the 15 schools the overall performance position was 13th, Which is now 2nd. 
 
-    
+•	How does replacing the ninth-grade scores affect the following:
+
+Math and reading scores by grade
+Scores by school spending
+Scores by school size
+Scores by school type
+
+
+
+  
+  
+  
  
   
   
