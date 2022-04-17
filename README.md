@@ -82,9 +82,21 @@
 ```
 
   
-•	Among the 15 schools the overall performance position was 13th, Which is now 2nd. 
+iii) Among the 15 schools the overall performance of Thomas High School’s position is 2nd, earlier which was 13th.
+  Present performance of Thomas High schoolrel ative to the other schools :
+  
+  <p align="center">
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/6.%20Top_School_without%209th%20grade.png       
+</p>
+  
+  Previous performance of Thomas High schoolrel ative to the other schools :
 
-•	How does replacing the ninth-grade scores affect the following:
+  <p align="center">
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/5.%20Top_School_with%209th%20grade.png       
+</p>
+  
+  
+iv)	How does replacing the ninth-grade scores affect the following:
 
 Math and reading scores by grade
 Scores by school spending
