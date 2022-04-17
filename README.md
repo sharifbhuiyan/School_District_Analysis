@@ -1,4 +1,4 @@
-## **<h1 align="center"> School_District_Analysis**
+## **<h1 align="center"> School District Analysis**
 
 
 
@@ -102,33 +102,15 @@ and type_summary on Scores by school type.
 
 
   
-  
-  
- 
-  
-  
+
      
     
     
     
 ## School district analysis Summary:
-  <p align="justify">Finally, school district analysis have been updated after replacing  the reading and math scores for the ninth grade at Thomas High School with NaNs.
+  <p align="justify">Finally, school district analysis have been updated after replacing the reading and math scores for the ninth grade at Thomas High School with NaNs. </p>
 
-•	The district summary affected by replacing the 9th grade students of Thomas High School.
+<p align="justify">Overall change was visualized on The district summary, The school summary, performance of Thomas High school based on the overall passing rate,  the scores by school spending per student, by school size, and by school type.</p>
 
-•	How is the school summary affected?
-
-
-•	How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-•	How does replacing the ninth-grade scores affect the following:
-
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-
-<p>
-  
-<p align="justify">Suppose for city election, need to change the all county tracking code. Like : <p>
 
 
