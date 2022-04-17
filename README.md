@@ -49,22 +49,7 @@
   <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/1.%20Dct_summary_with%209th%20grade.png
 </p>
   
-
-  <p align="justify"> ii)	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07 (approx), present rate is 90.63(approx). It can be visualized by following snapshot. <p>
-  
-  Present :   
-<p align="center">
-  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/4.%20School_summary_without%209th%20grade.png
-</p>
-  
-  Previous : 
-<p align="center">
-  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/3.%20School_summary_with%209th%20grade.png        
-</p>
-   
-  
-  
- The command to select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN: 
+The command to select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN: 
  
 ```ruby
     
@@ -80,6 +65,22 @@
     per_school_summary_df.loc["Thomas High School", "% Overall Passing"] = passing_math_reading_percentage_THS
 
 ```
+  
+  <p align="justify"> ii)	The school summary of Thomas High school has beenc hanged after replacing the 9th grade students of Thomas High School. Previously Overall passing rate was 65.07 (approx), present rate is 90.63(approx). It can be visualized by following snapshot. <p>
+  
+  Present :   
+<p align="center">
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/4.%20School_summary_without%209th%20grade.png
+</p>
+  
+  Previous : 
+<p align="center">
+  <img width="800" src=https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/Resources/3.%20School_summary_with%209th%20grade.png        
+</p>
+   
+  
+  
+ 
 
   
 iii) Among the 15 schools the overall performance of Thomas High School’s position is 2nd, earlier which was 13th.
