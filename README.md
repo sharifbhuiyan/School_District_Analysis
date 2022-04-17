@@ -96,12 +96,8 @@ iii) Among the 15 schools the overall performance of Thomas High School’s posi
 </p>
   
   
-iv)	How does replacing the ninth-grade scores affect the following:
-
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+iv)	Since replacing the ninth-grade scores, in datafrme of each grade level Series for average math scores shcowing NaN. That means Thomas school's of 9th grade has no performance both on reading and math. It also impacted in spending range while creating spending_summary on Scores by school, size_summary on Scores by school size
+and type_summary on Scores by school type.
 
 
 
