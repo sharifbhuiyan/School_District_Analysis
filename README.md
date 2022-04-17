@@ -64,7 +64,7 @@
    
   
   
- The command to select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN is : 
+ The command to select all the reading scores from the 9th grade at Thomas High School and replaced them with NaN: 
  
 ```ruby
     
@@ -73,7 +73,7 @@
 ```
   
 
-  The commmand to replace the overall passing percentage for Thomas High School in the per_school_summary_df  is : 
+  The command to replace the overall passing percentage for Thomas High School in the per_school_summary_df: 
  
 ```ruby
     
