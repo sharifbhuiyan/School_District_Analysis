@@ -96,8 +96,7 @@ iii) Among the 15 schools the overall performance of Thomas High School’s posi
 </p>
   
   
-iv)	Since replacing the ninth-grade scores, in datafrme of each grade level Series for average math scores shcowing NaN. That means Thomas school's of 9th grade has no performance both on reading and math. It also impacted in spending range while creating spending_summary on Scores by school, size_summary on Scores by school size
-and type_summary on Scores by school type.
+<p align="justify"> iv)	Since replacing the ninth-grade scores, in datafrme of each grade level Series for average math scores shcowing NaN. That means Thomas school's of 9th grade has no performance both on reading and math. It also impacted in spending range while creating spending_summary on Scores by school, size_summary on Scores by school size and type_summary on Scores by school type. </p>
 
 
 
@@ -108,7 +107,7 @@ and type_summary on Scores by school type.
     
     
 ## School district analysis Summary:
-  <p align="justify">Finally, school district analysis have been updated after replacing the reading and math scores for the ninth grade at Thomas High School with NaNs. </p>
+<p align="justify">Finally, school district analysis have been updated after replacing the reading and math scores for the ninth grade at Thomas High School with NaNs. </p>
 
 <p align="justify">Overall change was visualized on The district summary, The school summary, performance of Thomas High school based on the overall passing rate,  the scores by school spending per student, by school size, and by school type.</p>
 
