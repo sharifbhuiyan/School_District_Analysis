@@ -11,7 +11,7 @@
 - Repeat the school district analysis
 
  
-  School district analysis PyCitySchools_Challenge.ipynb file link -  [ Election  Audit Analysis](https://github.com/sharifbhuiyan/Election_Analysis/blob/main/PyPoll_Challenge.py)  
+  School district analysis PyCitySchools_Challenge.ipynb file link -  [ School district analysis](https://github.com/sharifbhuiyan/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)  
 
   
 - Resources :
